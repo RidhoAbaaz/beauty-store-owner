@@ -1,4 +1,4 @@
-service: admin
+service: owner
 runtime: nodejs22
 env: standard
 
