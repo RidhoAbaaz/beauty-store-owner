@@ -10,9 +10,7 @@ export default function App() {
     <Routes>
       {/* <Route path='/' element={  }/> */}
       <Route path='/' element={ <Dashboard /> } />
-      <Route path='/orders' element={ <OrderPage /> } />
       <Route path='/admin' element={ <AdminPage />} />
-      <Route path='/orders/:orderId' element={ <DetailOrder /> } />
     </Routes>
   )
 }

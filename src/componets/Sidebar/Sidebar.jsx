@@ -17,11 +17,6 @@ export default function Sidebar() {
                     className={({ isActive }) => `${style.menuItem} ${isActive && style.active}`}>
                     <i className="bi bi-person-circle"></i>Admin
                 </NavLink>
-                <NavLink 
-                    to="/orders"
-                    className={({ isActive }) => `${style.menuItem} ${isActive && style.active}`}>
-                    <i className="bi bi-file-text-fill"></i>Orders
-                </NavLink>
             </nav>
         </aside>
     )
